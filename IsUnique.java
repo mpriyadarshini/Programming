@@ -2,18 +2,17 @@ import java.util.*;
 
 public class IsUnique{
    public static boolean unique(String str){
-       boolean result=false;
-       for(int i=0;i<str.length();i++){
-           for(int j=i+1;j<str.length();j++){
-               if(str.charAt(i)==str.charAt(j)){
-                   result=false;
+       
+       String str1 = str.toLowerCase();
+       for(int i=0;i<str1.length();i++){
+           for(int j=i+1;j<str1.length();j++){
+               if(str1.charAt(i)==str1.charAt(j)){
+                    return false;
                }
-               else{
-                   result=true;
-               }
+               
            }
        }
-       return result;
+       return true;
 
    }
    public static void main(String[] args) {
