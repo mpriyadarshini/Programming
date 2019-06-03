@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringCompression",
+            "request": "launch",
+            "mainClass": "StringCompression",
+            "projectName": "Programming_3fe055f1"
+        }
+    ]
+}
